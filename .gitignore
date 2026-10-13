@@ -1,0 +1,51 @@
+# macOS
+.DS_Store
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor files
+.spyproject/
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+
+# ---------------------------------------------------------------------------
+# Large regenerable Part 0 / Part 1 data
+# ---------------------------------------------------------------------------
+
+# Raw THEMIS downloads can be tens of GB and are recreated by Part 0.
+data/part1/raw_data/
+
+# Intermediate hourly streams are recreated by Part 1.
+data/part1/hourly_data/
+
+# ---------------------------------------------------------------------------
+# Optional large derived outputs
+# ---------------------------------------------------------------------------
+
+# Per-row Part 4 test predictions are reproducible and not required to
+# understand the headline results. Remove this line if you want to commit them.
+results/part4/primary_test_predictions.csv
+
+# Temporary / local scratch files
+*.tmp
+*.temp

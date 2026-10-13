@@ -1,0 +1,39 @@
+{
+  "primary_features": [
+    "Unix Time",
+    "alpha",
+    "KS_D",
+    "Clock Angle",
+    "Cone Angle"
+  ],
+  "physical_features_for_ablation": [
+    "alpha",
+    "KS_D",
+    "Clock Angle",
+    "Cone Angle"
+  ],
+  "class_names": {
+    "0": "Not Magnetotail",
+    "1": "South Lobe",
+    "2": "North Lobe"
+  },
+  "cluster_to_class": {
+    "0": 0,
+    "2": 1,
+    "3": 2
+  },
+  "model_parameters": {
+    "max_depth": 10,
+    "max_leaves": 20,
+    "learning_rate": 0.2,
+    "n_estimators": 200,
+    "random_state": 1
+  },
+  "random_state": 1,
+  "test_size": 0.2,
+  "dataset_rows": 233427,
+  "spacecraft_counts": {
+    "THB": 117294,
+    "THC": 116133
+  }
+}

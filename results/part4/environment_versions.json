@@ -1,0 +1,7 @@
+{
+  "python": "3.12.11",
+  "pandas": "2.3.1",
+  "numpy": "2.5.3",
+  "scikit-learn": "1.7.1",
+  "xgboost": "3.0.1"
+}
